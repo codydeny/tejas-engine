@@ -1,0 +1,14 @@
+{
+    "instanceId" : "asdasda",
+    "instanceType" : "demo",
+    "instanceState" : "IN_PROGRESS",
+    "currentStep" : "START_STEP",
+    "stepData" : {
+        "START_STEP" : {
+                "status" : "FINISHED",
+                "data" : {},
+                "createdAt" : "2015-12-01T12:00:00.000Z",
+                "updatedAt" : "2015-12-01T12:00:00.000Z"
+        }
+    }
+}

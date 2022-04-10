@@ -1,0 +1,30 @@
+{
+  "name": "tejas-engine",
+  "version": "1.0.0",
+  "description": "Tejas is a workflow engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codydeny/tejas-engine.git"
+  },
+  "author": "Puneet Bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codydeny/tejas-engine/issues"
+  },
+  "homepage": "https://github.com/codydeny/tejas-engine#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "mongoose": "^6.1.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name" : "demo",
+    "steps" : {
+        "START_STEP": {
+            "step": "0",
+            "next": "ptaUpdate"
+          },
+        "ptaUpdate": {
+            "step": "1",
+            "actors" : ["DAD", "MOM"],
+            "next": "END_STEP"
+          }
+    },
+    "watchers" : ["KID", "DAD", "MOM", "TEACHER"],
+    "creators" : ["TEACHER"]
+  }
